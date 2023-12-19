@@ -1,6 +1,7 @@
-<?php require ("./helper.php");?>
-<?php require ("./router.php"); ?>
 
-<?php echo "3 index <br> "; ?>*/
+<?php require ("./helper.php"); ?>
+<?php require_once ("./model/db.php"); ?>
+
+<?php require ("./router.php"); ?>
 
 

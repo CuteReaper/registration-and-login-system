@@ -1,1 +1,3 @@
-<?php require ("./view/index.view.php"); ?>
+
+<?php dd($_SERVER);
+ require ("./view/index.view.php"); ?>

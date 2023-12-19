@@ -8,5 +8,8 @@
 </head>
 <body class=" bg-blue-300 border-pink-500 ">
     <h1>------------- this is header ------------</h1>
+<a class="underline" href="/">home</a>
+<a class="underline" href="/register">register</a>
+<a class="underline" href="/login">login</a>
 
     

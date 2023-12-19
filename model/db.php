@@ -1,4 +1,4 @@
-<?php require ("../helper.php");?>
+
 <?php 
 
 $conn = new mysqli("localhost","root1","","management_system");
