@@ -7,6 +7,5 @@ function dd($data){
     
 }
 
-echo "1 helper <br>"
 ?>
 

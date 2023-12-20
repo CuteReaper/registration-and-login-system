@@ -1,8 +1,4 @@
 
-<?php
-
-echo "4 register"; 
-?>
 
 <?php
 
