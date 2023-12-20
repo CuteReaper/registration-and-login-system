@@ -17,14 +17,14 @@ if(!isset($_POST["submit"])){
     $result = mysqli_query($conn , $sql);
     $row = $result->fetch_assoc();
     require ("../helper.php");
-    print_r ($result);
-    if (!mysqli_num_rows($result) > 0){
+    print_r ($row["password"]);
+    if (!mysqli_num_rows($result) > 0 and password_verify(($_POST["password"]),($row["password"]))){
 
         // $sql = "INSERT INTO `users` (`username`, `first_name`, `last_name`, `email`, `password`) VALUES ($username, $fname, $lname, $email, $password);";
         // if ($conn->query($sql) === TRUE) {
             echo "<h1>username or pwd doesnt match</h1>";
             // header("Location: /login");
-            // header( "Refresh:1; url=/login", true, 303);
+            header( "Refresh:1; url=/login", true, 303);
             // echo "sent-";
         //   } else {
         //     echo "Error: " . $sql . "<br>" . $conn->error;

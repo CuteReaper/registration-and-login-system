@@ -6,6 +6,7 @@ $uri = (parse_url($uri)["path"]);
 $router = [
     "/"=> "./controller/index.php",
     "/register" => "./controller/register.php",
+    "/forgot-password" => "./controller/forgot.php",
     "/login" => "./controller/login.php"
 ];
 
