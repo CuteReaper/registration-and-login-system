@@ -1,6 +1,6 @@
 <?php require ("parts/header.php");  ?>
 
-<form class="max-w-sm mx-auto" action="../controller/change-password.php" method="POST">
+<form class="max-w-sm mx-auto" action="../controller/password-changed.php" method="POST">
 <div class="mb-5">
   <div class="mb-5">
   <input type="hidden" name="email" value="<?php echo ($email); ?>">
